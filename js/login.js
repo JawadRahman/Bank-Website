@@ -8,7 +8,7 @@ document.getElementById('login-btn').addEventListener('click',function(){
     const userPassword = passwordField.value;
 
 
-    if(userEmail == 'jawad@gmail.com' && userPassword == 'samwad'){
+    if(userEmail == 'jawad@gmail.com' && userPassword == 'jawad'){
         window.location.href='userdashboard.html';
     }
     else{
